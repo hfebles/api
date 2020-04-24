@@ -1,9 +1,14 @@
 <?php
 
-$url = 'apostilla.desarrollo.intt.gob.ve/api/consular-letter/apostilled';
+$u = 'apostilla.desarrollo.intt.gob.ve/api/consular-letter/apostilled';
+$t = '8WCDVcfOM8upIQi0Sgl3olWUF3B5rwi5lQnS9D31vvmJTI1bABKwt66j6LGATka7k2RB8Ire5V2cfpMc';
 
 
-function callAPI($method, $url){
+
+echo $u.$t;
+
+/*
+
    $curl = curl_init();
 
    curl_setopt($curl, CURLOPT_POST, true);
@@ -27,14 +32,7 @@ function callAPI($method, $url){
    return $result;*/
 
 
-   var_dump(curl_setopt());
-}
-
-
-
-$make_call = callAPI('POST', $url,);
-
-var_dump($make_call);
+   //var_dump(curl_setopt());
 
 
 
