@@ -15,6 +15,7 @@ $h = array(
 
 //curl_setopt($curl, CURLOPT_POST, true);
 curl_setopt($curl, CURLOPT_URL, $u);
+curl_setopt($curl, CURLOPT_POSTFIELDS, 'traking=200204315204');
 //curl_setopt($curl, CURLOPT_HEADER, true);
 //curl_setopt($curl, CURLOPT_HTTPHEADER, $h);
 
