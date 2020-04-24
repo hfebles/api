@@ -5,7 +5,9 @@ $t = '8WCDVcfOM8upIQi0Sgl3olWUF3B5rwi5lQnS9D31vvmJTI1bABKwt66j6LGATka7k2RB8Ire5V
 
 
 
-echo $u.$t;
+//echo $u.$t;
+
+var_dump(curl_setopt());
 
 /*
 
